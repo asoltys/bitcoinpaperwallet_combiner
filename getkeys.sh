@@ -5,3 +5,4 @@ do
   pdftotext $f temp
   sed -n 2,2p temp >> keys.txt
 done
+rm temp
