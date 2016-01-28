@@ -1,5 +1,5 @@
 bitcoin = require('bitcoinjs-lib')
-wallet = require('./wallet.aes.json')
+wallet = require('./wallet.sample.json')
 fs = require('fs')
 
 lineReader = require('readline').createInterface(
